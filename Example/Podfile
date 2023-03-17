@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MARSDK_FIREBASE_Tests' do
+  pod 'MARSDK_FIREBASE', :path => '../'
+  
+  
+end
