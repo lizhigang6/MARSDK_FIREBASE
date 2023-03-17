@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'izhigang6@163.com' => 'lizhigang6@163.com' }
   s.source           = { :git => 'https://github.com/lizhigang6/MARSDK_FIREBASE.git.git', :tag => s.version.to_s }
-  s.vendored_libraries =  'MARSDK_FIREBASE/SDK/libMARSDK_FIREBASE.a'
- s.vendored_frameworks  = 'MARSDK_FIREBASE/Classes/*. xcframework' 
+  s.vendored_libraries =  'MARSDK_FIREBASE/SDK'
  s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  
 
